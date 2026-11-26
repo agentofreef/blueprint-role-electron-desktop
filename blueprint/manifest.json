@@ -1,7 +1,7 @@
 {
   "protocolVersion": 2,
   "packageId": "blueprint-electron-desktop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Blueprint Studio",
   "license": "MIT AND LicenseRef-Blueprint-Artwork",
   "character": {
@@ -78,6 +78,11 @@
       "path": "setup/install.json",
       "kind": "workflow",
       "description": "Node.js、npm 与可安装 Skill 的准备顺序"
+    },
+    {
+      "path": "setup/manual-dependencies.json",
+      "kind": "environment",
+      "description": "需按上游流程准备的 Skill 和工具"
     }
   ]
 }

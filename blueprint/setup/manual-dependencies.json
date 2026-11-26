@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "design-taste-frontend",
+      "label": "Taste (design-taste-frontend)",
+      "kind": "skill",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "id": "impeccable",
+      "label": "Impeccable",
+      "kind": "skill",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "id": "electron",
+      "label": "Electron",
+      "kind": "tool",
+      "url": "https://www.electronjs.org/docs/"
+    },
+    {
+      "id": "agent-browser-cli",
+      "label": "agent-browser CLI",
+      "kind": "tool",
+      "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+      "id": "chromium",
+      "label": "Chromium 测试浏览器",
+      "kind": "tool",
+      "url": "https://github.com/vercel-labs/agent-browser"
+    }
+  ]
+}
