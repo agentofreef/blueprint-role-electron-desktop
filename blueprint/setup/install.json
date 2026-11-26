@@ -1,0 +1,8 @@
+{
+  "steps": [
+    "tool:node",
+    "tool:npm",
+    "skill:electron-best-practices",
+    "skill:agent-browser"
+  ]
+}

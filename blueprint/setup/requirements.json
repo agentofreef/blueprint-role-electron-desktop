@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "skillRequirements": [
+    {
+      "name": "electron-best-practices",
+      "required": false,
+      "missingPrompt": "准备阶段核对 Electron 官方文档和当前应用的进程、IPC 与打包配置，并按角色 Skill 指南装配工程 Skill。",
+      "source": {
+        "kind": "github",
+        "repository": "jwynia/agent-skills",
+        "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+        "path": "skills/tech/development/tooling/electron-best-practices/SKILL.md",
+        "sha256": "bfc171ab876b7557be90822a1fc59f2788434a26ab6b2bd15beb20bc527e34c0"
+      }
+    },
+    {
+      "name": "agent-browser",
+      "required": false,
+      "missingPrompt": "为目标执行环境准备 agent-browser Skill、CLI 和项目支持的 Electron 调试连接，再核对一次真实界面交互。",
+      "source": {
+        "kind": "github",
+        "repository": "vercel-labs/agent-browser",
+        "commit": "b06e2533ba9b3823b8a96c859d455cb55f4d7893",
+        "path": "skills/agent-browser/SKILL.md",
+        "sha256": "7d46deeb0101e84f8d70fd2e5cd18e3b6017edfb973607ff23e95e22c92ce73e"
+      }
+    }
+  ],
+  "environment": [
+    {
+      "id": "node",
+      "kind": "runtime",
+      "required": false,
+      "label": "Node.js"
+    },
+    {
+      "id": "npm",
+      "kind": "tool",
+      "required": false,
+      "label": "npm"
+    }
+  ],
+  "installScript": "setup/install.json"
+}

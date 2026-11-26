@@ -1,0 +1,83 @@
+{
+  "protocolVersion": 2,
+  "packageId": "blueprint-electron-desktop",
+  "version": "1.0.0",
+  "publisher": "Blueprint Studio",
+  "license": "MIT AND LicenseRef-Blueprint-Artwork",
+  "character": {
+    "id": "electron-desktop",
+    "name": "Electron 桌面应用开发",
+    "nameEn": "Electron Desktop Developer",
+    "description": "按 CP0–CP5 推进 Electron 产品设计、桌面工程、真实运行 QA 与发布验收。",
+    "aliases": [
+      "Electron 开发",
+      "Electron Desktop Developer",
+      "桌面应用开发"
+    ],
+    "prompt": "prompt.md"
+  },
+  "skills": [
+    {
+      "name": "blueprint-role-electron-desktop",
+      "kind": "core",
+      "description": "结合开发计划、检查点、可验证任务和真实运行证据交付 Electron 应用。",
+      "path": "skills/blueprint-role-electron-desktop/SKILL.md",
+      "source": "Blueprint Studio original role instructions",
+      "license": "MIT"
+    }
+  ],
+  "image": {
+    "portrait": "images/portrait.png",
+    "files": [
+      "images/portrait.png"
+    ]
+  },
+  "capabilities": [
+    "ensure-role-environment",
+    "file-search",
+    "terminal",
+    "git"
+  ],
+  "resources": [
+    {
+      "path": "references/00-tools-and-skills.md",
+      "kind": "workflow",
+      "description": "实际 Skill 发现及安装"
+    },
+    {
+      "path": "references/01-checkpoints-and-plan.md",
+      "kind": "workflow",
+      "description": "七个阶段、CP0–CP5 与任务依赖"
+    },
+    {
+      "path": "references/02-electron-architecture.md",
+      "kind": "workflow",
+      "description": "进程、安全 IPC 与分发"
+    },
+    {
+      "path": "references/03-visual-and-ux.md",
+      "kind": "workflow",
+      "description": "视觉方向、设计系统与实测审查"
+    },
+    {
+      "path": "references/04-runtime-qa-and-release.md",
+      "kind": "workflow",
+      "description": "实际应用 QA、持续回归和发布验收"
+    },
+    {
+      "path": "references/development-plan-template.md",
+      "kind": "workflow",
+      "description": "可复制为 DEVELOPMENT_PLAN.md 的模板"
+    },
+    {
+      "path": "setup/requirements.json",
+      "kind": "environment",
+      "description": "角色环境检查与 GitHub Skill 来源"
+    },
+    {
+      "path": "setup/install.json",
+      "kind": "workflow",
+      "description": "Node.js、npm 与可安装 Skill 的准备顺序"
+    }
+  ]
+}
